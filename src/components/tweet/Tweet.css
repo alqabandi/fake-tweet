@@ -140,6 +140,10 @@
 }
 
 .avatar {
+  /* ^ for Firefox */
+    -webkit-filter: blur(6px);  
+  /* ^ Webkit browsers */
+    filter: blur(6px);  
     height: 49px;
     width: 49px;
     border-radius: 50%;
