@@ -94,13 +94,13 @@
 }
 
 .rt-likes {
-  /* ^ for Firefox */
-    -webkit-filter: blur(6px);  
+ /* ^ for Firefox */
+/*    -webkit-filter: blur(6px);  */
   /* ^ Webkit browsers */
-    filter: blur(6px);  
-    width:50px;
-    display:inline-block;
-    background:#696969;
+/*    filter: blur(6px);  */
+/*    width:50px;*/
+/*    display:inline-block;*/
+/*    background:#696969;*/
     padding-top: 15px;
     padding-bottom: 15px;
     border-bottom: 1px solid #e6ecf0;
