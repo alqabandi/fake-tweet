@@ -22,14 +22,35 @@
 }
 
 .user-name {
+          /* ^ for Firefox */
+    -webkit-filter: blur(6px);  
+  /* ^ Webkit browsers */
+    filter: blur(6px);  
+        width:50px;
+    display:inline-block;
+    background:#696969;
     font-weight: bold;
 }
 
 .user-name-txt {
+          /* ^ for Firefox */
+    -webkit-filter: blur(6px);  
+  /* ^ Webkit browsers */
+    filter: blur(6px);  
+        width:50px;
+    display:inline-block;
+    background:#696969;
     display: inline;
 }
 
 .user-nickname {
+      /* ^ for Firefox */
+    -webkit-filter: blur(6px);  
+  /* ^ Webkit browsers */
+    filter: blur(6px);  
+        width:50px;
+    display:inline-block;
+    background:#696969;
     cursor: pointer;
     color: rgb(101, 119, 134);
 }
@@ -60,12 +81,26 @@
 }
 
 .metadata {
+  /* ^ for Firefox */
+    -webkit-filter: blur(6px);  
+  /* ^ Webkit browsers */
+    filter: blur(6px);  
+    width:50px;
+    display:inline-block;
+    background:#696969;
     color: rgb(101, 119, 134);
     padding-bottom: 15px;
     border-bottom: 1px solid #e6ecf0;
 }
 
 .rt-likes {
+  /* ^ for Firefox */
+    -webkit-filter: blur(6px);  
+  /* ^ Webkit browsers */
+    filter: blur(6px);  
+    width:50px;
+    display:inline-block;
+    background:#696969;
     padding-top: 15px;
     padding-bottom: 15px;
     border-bottom: 1px solid #e6ecf0;
@@ -73,6 +108,13 @@
 }
 
 .rt-likes strong {
+  /* ^ for Firefox */
+    -webkit-filter: blur(6px);  
+  /* ^ Webkit browsers */
+    filter: blur(6px);  
+    width:50px;
+    display:inline-block;
+    background:#696969;
     color: rgb(20, 23, 26);
 }
 
